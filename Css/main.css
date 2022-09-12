@@ -5,3 +5,91 @@
     margin: 0%;
     box-sizing: border-box;
 }
+
+/*  Grid   container nav and background*/
+.nbc_nav_container{
+    display: grid;
+    grid-template-columns: 100px 5fr;
+    grid-template-rows: minmax(65px, auto);
+    background: #212121;
+}
+.nbc_logo_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+.logo_Heleh {
+    width: 70px;
+
+}
+.nbc_navigation_container{
+    border: 1px solid red;
+}
+.nbc_navigation_ul_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.nbc_navigation_ul_flex li{
+    list-style-type: none;
+    margin: 0em 1.5em;
+    padding: 0.1em;
+}
+.nbc_navigation_ul_flex li a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+/* CONTENEDOR DE LA IMAGEN PRINCIPAL Y MAS FUNCIONES*/
+.nbc_background_container{
+    width: 100%;
+    background: #212121;
+}
+.nbc_container_background{
+    width: 100px;
+    border: 1px solid red;
+}
+.nbc_container_more_images{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nbc_container_more_images span{
+    border-radius: 50%;
+    border: 4px solid white;
+    margin: 0.7em 0em;
+}
+.nbc_container_add{
+    display: flex;
+    justify-content: center;
+
+}
+.nbc_container_add span{
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background: #252525;
+    border: 1px solid #353535;
+    position: relative;
+    margin-bottom: 6em;
+}
+.nbc_container_add span::before{
+    content: '+';
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    font-weight: 900;
+    font-size: 25px;
+}
